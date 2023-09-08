@@ -814,7 +814,7 @@ $(function () {
     $(".nav_component").css("display", "block");
   });
 
-  if (window.location.host === "fs-clay.webflow.io") {
+  if (window.location.host === "fs-clay.webflow.io" || window.location.host === "clay.com") {
     //   $('.html-embed-7').remove();
     var videos = [];
     let global_index = 0;
